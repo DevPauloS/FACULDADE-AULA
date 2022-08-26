@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;   
+    align-self:center; 
+      
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 10em;
+}
+h1{
+    justify-content: center;
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 1.5em;
+    transition-delay: 0.5s;
+}
+h1:hover{
+    color: blue;
+    transition: 0.5s;
+    color:aqua;
+    transition: 0.5s;
+    
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    height: 40em;   
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 2em;
+    background-color: red;
+}
+#caixa1, #caixa2{
+    width: 5em;
+    height: 2.5em;
+    background-color: #fff;
+    margin-bottom: 2.5em ;
+}
+#botaoso, #botaosu,#botaomu,#botaodi{    
+    background-color: #fff;
+    font-size: 1.1em;
+    width: 7.5em;
+    height: 3em;
+    color: #000000;
+    margin: 0.4em;
+    cursor: pointer;
+}
+#botaoso:hover, #botaosu:hover, #botaomu:hover, #botaodi:hover{
+    background-color: #000000;
+    color: #fff;
+
+}
+
+#resultado{
+    position: relative;   
+    background-color: #000000;
+    font-size: 2em;
+    color: #fff;
+}
+#num1, #num2, #num3{
+    width: 5em;
+    height: 2em;
+    background-color: #fff;
+    color: #000000;
+}
+#botaoStart{
+    width: 5em;
+    height: 5em;
+    background-color: #fff;
+    color: #000000;
+}
